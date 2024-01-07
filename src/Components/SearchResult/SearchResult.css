@@ -1,0 +1,53 @@
+.searched-posters {
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    flex-wrap: wrap;
+}
+
+.searched-posters::-webkit-scrollbar {
+    display: none;
+}
+
+.searched-poster {
+    border-radius: 5px;
+    margin: 8px;
+    max-height: 220px;
+    max-width: 150px;
+    margin-right: 10px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all 0.5s ease-out;
+
+}
+
+.searched-poster:hover {
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.235), 0 6px 20px 0 rgba(255, 255, 255, 0.235);
+    opacity: 1;
+    max-width: 160px;
+    max-height: 230px;
+    margin-right: 10px;
+    animation-duration: 0.75s;
+    transition: all 0.5s ease-in;
+}
+
+.loading-poster {
+    background-color: rgba(240, 248, 255, 0.39);
+    margin: 8px;
+    max-height: 220px;
+    max-width: 150px;
+    margin-right: 10px;
+}
+
+.search-results {
+    margin-top: 50px;
+}
+
+.err-msg {
+    display: flex;
+    padding-top: 20px;
+    height: 100vh;
+    width: 100%;
+    color: white;
+}

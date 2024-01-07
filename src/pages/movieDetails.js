@@ -1,18 +1,18 @@
-import React, { Fragment } from 'react'
+import React from 'react'
+import { Fragment } from 'react'
 import NavBar from '../Components/NavBar/NavBar'
-
-import Banner from '../Components/Banner/Banner'
 import ShowsDetails from '../Components/ShowsDetails/ShowsDetails'
-function searchedShow() {
+function movieDetails() {
   return (
     <Fragment>
+     
         <NavBar/>
-      
-       <ShowsDetails/>
        
-        
+        <ShowsDetails/>
+      
+  
     </Fragment>
   )
 }
 
-export default searchedShow
+export default movieDetails

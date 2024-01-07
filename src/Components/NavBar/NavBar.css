@@ -1,7 +1,7 @@
-.navbar{
-    background-image: linear-gradient(180deg,rgba(37, 37, 37, 0.995),#111,transparent);
- z-index: 1000;
- padding-top: 0;
+.navbar {
+    background-image: linear-gradient(180deg, rgba(37, 37, 37, 0.995), #111, transparent);
+    z-index: 1000;
+    padding-top: 0;
     top: 0;
     position: fixed;
     width: 100%;
@@ -9,13 +9,13 @@
     padding: 20px;
     display: flex;
     justify-content: space-between;
-   
+
 }
 
-.logo{
-position: fixed;
-left: 20px;
-width: 80px;
+.logo {
+    position: fixed;
+    left: 20px;
+    width: 80px;
 }
 
 .avatar {
@@ -23,7 +23,8 @@ width: 80px;
     right: 20px;
     width: 30px;
 }
-.search{
+
+.search {
     padding: 5px;
     background-color: rgba(252, 247, 247, 0.329);
     position: fixed;
@@ -33,26 +34,30 @@ width: 80px;
     transition: width 0.4s ease-in-out;
     cursor: pointer;
 }
+
 .search:hover {
     width: 200px;
 }
-.searchBar{
-    
+
+.searchBar {
+
     width: 80%;
     background: transparent;
     color: aliceblue;
     border: none;
 }
-.search-icon{
+
+.search-icon {
     color: white;
     margin-left: 4%;
 }
-input[type=text]:focus {
-  
-   outline: none;
 
-  }
-  
-::placeholder{
+input[type=text]:focus {
+
+    outline: none;
+
+}
+
+::placeholder {
     color: white;
 }

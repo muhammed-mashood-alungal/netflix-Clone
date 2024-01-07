@@ -1,37 +1,40 @@
-.row{
+.row {
     margin-left: 20px;
     color: #fff;
 }
 
-.posters{
+.posters {
     display: flex;
     padding: 20px;
     overflow-x: scroll;
-    overflow-y:hidden ;
+    overflow-y: hidden;
 }
 
-.posters::-webkit-scrollbar{
+.posters::-webkit-scrollbar {
     display: none;
 }
 
 
-.normalPoster{
+.normalPoster {
+    border-radius: 5px;
     max-height: 240px;
     margin-right: 10px;
     cursor: pointer;
     opacity: 0.7;
     transition: all 0.5s ease-out;
 }
-.normalPoster:hover{
- 
+
+.normalPoster:hover {
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.235), 0 6px 20px 0 rgba(255, 255, 255, 0.235);
     opacity: 1;
-   
     max-height: 250px;
     margin-right: 10px;
     animation-duration: 0.75s;
-   transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
 }
-.mainRowPoster{
+
+.mainRowPoster {
+    border-radius: 8px;
     opacity: 0.7;
     transition: all 0.5s ease-out;
     max-height: 270px;
@@ -39,10 +42,11 @@
     cursor: pointer;
 }
 
-.mainRowPoster:hover{
+.mainRowPoster:hover {
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.235), 0 6px 20px 0 rgba(255, 255, 255, 0.235);
     opacity: 1;
     max-height: 280px;
     margin-right: 10px;
     animation-duration: 0.75s;
-   transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
 }

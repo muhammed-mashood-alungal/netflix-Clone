@@ -1,4 +1,4 @@
-APIKEY = 3d7de1f5a7af576ac347b1a002fe3737
+
 
 netflix-logo='https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1920px-Netflix_2015_logo.svg.png'
 
@@ -30,9 +30,8 @@ RomanceMovies: 'https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY_HE
 
 Documentaries: 'https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY_HERE}&with_genres=99',
 
-////////////////////////////////////////////////////////////////////API KEY////////////////////////////////////////////////////////////////////////////
 
-API_KEY = "YOUR API KEY"
+
 
 youtube component='https://api.themoviedb.org/3/movie/572802/videos?api_key=3d7de1f5a7af576ac347b1a002fe3737'
 
