@@ -1,0 +1,60 @@
+
+.ShowsDetails{
+    margin-top: 80px;
+    padding-left: 20px;
+}
+.media-section{
+    width: 50%;
+    height: 400px;
+    float:left;
+}
+.media{
+    width: 98%;
+    border-radius: 10px;
+    transition: all 0.5s ease-in;
+    
+}
+.media:hover{
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.235), 0 6px 20px 0 rgba(255, 255, 255, 0.235);
+    transition: all 0.5s ease-out;
+    width: 100%;
+}
+.content-section{
+    float: right;
+    width: 40%;
+    
+    color: aliceblue;
+    
+}
+.description{
+  height: fit-content;
+    max-width: 300px;
+}
+.rating{
+   margin-top: 3px;
+}
+button{
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    background-color: #fff;
+    color: #000000;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+button:hover{
+    border-radius: 5px;
+    background-color: #000000;
+    color: #fff;
+    border: 2px solid #fff;
+
+}
+.err-msg{
+    display: flex;
+    padding-top: 20px;
+    height: 100vh;
+    width: 100%;
+   
+    color: white;
+}
