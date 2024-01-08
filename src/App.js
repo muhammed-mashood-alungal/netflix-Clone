@@ -16,9 +16,9 @@ function App() {
       <MovieProvider>
         <SearchProvider>
 
-          <Router>
+          <Router basename='/netflix'>
             <Routes>
-              <Route path='/' exact element={<HomePage />}></Route>
+              <Route path='/netflix' exact element={<HomePage />}></Route>
               <Route path='/search' Component={search}></Route>
               <Route path='/movie-details' Component={movieDetails}></Route>
             </Routes>

@@ -5,12 +5,8 @@ import ShowsDetails from '../Components/ShowsDetails/ShowsDetails'
 function movieDetails() {
   return (
     <Fragment>
-     
-        <NavBar/>
-       
-        <ShowsDetails/>
-      
-  
+      <NavBar />
+      <ShowsDetails />
     </Fragment>
   )
 }
