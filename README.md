@@ -2,14 +2,6 @@
 
 This project is a Netflix clone built with React and uses the TMDB (The Movie Database) API to fetch movie and TV show data.
 
-## Table of Contents
-
-
-- [Features](#features)
-- [Installation](#installation)
-- [Getting Started with Create React App](#Getting Started with Create React App)
-
-
 ## Features
 
 - Browse and search for movies and TV shows.
