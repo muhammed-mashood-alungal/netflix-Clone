@@ -28,10 +28,10 @@ function RowPost(props) {
       <h2>{props.title}</h2>
       <div className='posters'>
         {
-          movies.map((obj) => {
+          movies.map((obj,index) => {
             return (
 
-              <img onClick={() => { directMovieDetails(obj) }} className={props.isMainRow ? 'mainRowPoster' : 'normalPoster'} alt='poster' src={`${imageUrl + obj.poster_path}`} />
+              <img onClick={() => { directMovieDetails(obj) }} className={props.isMainRow ? 'mainRowPoster' : 'normalPoster'} alt={`poster`+index} src={`${imageUrl + obj.poster_path}`} />
 
             )
           })

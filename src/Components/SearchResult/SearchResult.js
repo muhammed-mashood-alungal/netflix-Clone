@@ -33,14 +33,14 @@ function SearchResult() {
         searchResult.length !== 0 ?
           <div className='searched-posters'>
             {
-              searchResult.map((obj) => {
+              searchResult.map((obj,index) => {
                 return (
                   <div className='each-movies'>
                     {
                       obj.poster_path ?
                         <div>
 
-                          <img className='searched-poster' alt='poster'
+                          <img className='searched-poster' alt={'poster'+index}
                             src={`${imageUrl + obj.poster_path}`}
                             onClick={() => { DirectMovieDetails(obj) }}
                           />
