@@ -4,15 +4,11 @@ This project is a Netflix clone built with React and uses the TMDB (The Movie Da
 
 ## Table of Contents
 
-- [Demo](#demo)
+
 - [Features](#features)
 - [Installation](#installation)
 - [Getting Started with Create React App](#Getting Started with Create React App)
-  
 
-## Demo
-
-![web capture](C:\Users\hp\Downloads\Web capture_6-1-2024_195052_localhost.jpeg)
 
 ## Features
 
