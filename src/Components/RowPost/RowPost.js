@@ -14,7 +14,6 @@ function RowPost(props) {
     axios.get(`${baseUrl + props.url}`).then((response) => {
       setMovies(response.data.results)
     })
-
   })
  
   function directMovieDetails(movieDetails) {
@@ -30,9 +29,7 @@ function RowPost(props) {
         {
           movies.map((obj,index) => {
             return (
-
               <img onClick={() => { directMovieDetails(obj) }} className={props.isMainRow ? 'mainRowPoster' : 'normalPoster'} alt={`poster`+index} src={`${imageUrl + obj.poster_path}`} />
-
             )
           })
         }

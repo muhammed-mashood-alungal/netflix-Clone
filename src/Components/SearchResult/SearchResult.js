@@ -19,6 +19,9 @@ function SearchResult() {
     navigate('/movie-details')
   }
   useEffect(() => {
+    if(!searchQuery){
+      navigate('/')
+    }
     axios.get(`/search/movie?query=${searchQuery}&api_key=${API_KEY}`).then((response) => {
       setSearchResult(response.data.results)
 

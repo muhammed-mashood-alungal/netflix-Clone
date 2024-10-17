@@ -15,7 +15,6 @@ function App() {
     <div className="App">
       <MovieProvider>
         <SearchProvider>
-
           <Router >
             <Routes>
               <Route path='/' exact element={<HomePage />}></Route>
@@ -23,7 +22,6 @@ function App() {
               <Route path='/movie-details' Component={movieDetails}></Route>
             </Routes>
           </Router>
-
         </SearchProvider>
       </MovieProvider>
 

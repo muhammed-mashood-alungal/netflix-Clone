@@ -9,7 +9,6 @@ function HomePage(props) {
   return (
 
     <Fragment>
-
       <NavBar />
       <Banner />
       <RowPost title="Netflix Original" isMainRow url={NetflixOriginals} />

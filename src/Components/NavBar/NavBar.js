@@ -7,8 +7,11 @@ import { SearchContext } from '../../Contexts/searchContext';
 function NavBar() {
     const { updateSearchQuery } = useContext(SearchContext)
     const navigate = useNavigate()
-    const [searchQuery, setSearchQuery] = useState()
+    const [searchQuery, setSearchQuery] = useState('')
     function handleSearch() {
+        if(!searchQuery){
+            return 
+        }
         updateSearchQuery(searchQuery)
         navigate('/search')
 

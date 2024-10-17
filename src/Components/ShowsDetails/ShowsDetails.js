@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useContext } from 'react'
 //import { SearchContext } from '../../Contexts/searchContext'
 import axios from '../../axios'
@@ -8,14 +8,21 @@ import './ShowsDetails.css'
 import YouTube from 'react-youtube'
 import length from 'array-length'
 import { movieDetailsContext } from '../../Contexts/movieDetailsContext'
+import { useNavigate } from 'react-router-dom'
 
 
 
 function ShowsDetails() {
-
+ 
   const [videoId, setVideoId] = useState()
   const [isVideo, setIsVideo] = useState(false)
   const { Movie } = useContext(movieDetailsContext)
+  const navigate = useNavigate()
+   useEffect(()=>{
+     if(!Movie){
+      navigate('/')
+     }
+  },[])
 
   const opts = {
     height: '390',
